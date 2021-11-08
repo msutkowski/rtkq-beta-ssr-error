@@ -13,13 +13,14 @@ const productApi = createApi({
     }
   },
   endpoints: build => ({
-    getPokemon: build.query<any, void>({
+    getPokemon: build.query<any, any>({
       query: () => ({ url: '/', method: 'GET' }),
     }),
   }),
 })
 
 export const {
+  useGetPokemonQuery,
   util: { getRunningOperationPromises },
 } = productApi
 
