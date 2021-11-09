@@ -9,7 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@reduxjs/toolkit": "^1.7.0-beta.1",
+    "@reduxjs/toolkit": "https://pkg.csb.dev/reduxjs/redux-toolkit/commit/c43380ad/@reduxjs/toolkit",
     "abort-controller": "^3.0.0",
     "next": "^11.1.2",
     "next-redux-wrapper": "^7.0.4",
